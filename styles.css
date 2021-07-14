@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  border: none;
+  box-sizing: border-box;
+  outline: none;
+  background: none;
+}
+
+input,
+button {
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  padding: 5px 10px;
+  height: 35px;
+  font-size: 16px;
+}
+.main {
+  font-size: 0;
+  padding: 20px;
+}
+.form-field {
+  margin-bottom: 10px;
+}
+.form-field input {
+  border-radius: 3px 0 0 3px;
+}
+.form-field input._error {
+  border-color: red;
+  color: red;
+}
+.form button {
+  border: none;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 3px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+.form button:hover {
+  background: rgba(0, 0, 0, 0.9);
+  color: #fff;
+}
+.hello {
+  display: inline-block;
+  font-size: 30px;
+  border-bottom: solid rgba(0, 0, 0, 0.7);
+  vertical-align: bottom;
+  min-width: 50px;
+  margin-bottom: 30px;
+  text-align: right;
+  font-style: italic;
+}
